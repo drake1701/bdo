@@ -1,0 +1,35 @@
+/**
+ * @author      Dennis Rogers <dennis@drogers.net>
+ * @address     www.drogers.net
+ */
+
+.ui-content {
+    max-width: 750px;
+    margin: 0 auto;
+}
+.ui-input-text {
+    padding: 5px 0 2px;
+}
+.ui-btn,
+.ui-input-text {
+    margin: .3em .3em 0 .3em !important;
+}
+.ui-select {
+    margin: .3em 0 0 0 !important;
+}
+.name .ui-btn {
+    text-align: left;
+}
+.ui-grid-d>.ui-block-a {
+    width:30%;
+}
+.ui-grid-d>.ui-block-b {
+    width:25%;
+}
+.ui-grid-d>.ui-block-c, .ui-grid-d>.ui-block-d, .ui-grid-d>.ui-block-e {
+    width:15%;
+}
+button#submit {
+    width: 98.7%;
+    background-color: #164a6f;
+}

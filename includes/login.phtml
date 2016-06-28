@@ -1,0 +1,29 @@
+<?php
+/**
+ * @author      Dennis Rogers <dennis@drogers.net>
+ * @address     www.drogers.net
+ */
+?>
+<div data-role="page" data-theme="b">
+    <div data-role="content">
+        <form method="post">
+            <h2>Enter your Account Key</h2>
+            <div data-role="fieldcontain">
+                <label for="inputPassword">Key</label>
+                <input type="password" id="key" name="key" placeholder="Key" required autofocus>
+            </div>
+            <button type="submit">Sign in</button>
+        </form>
+        <p>- OR -</p>
+        <form method="post">
+            <h2>Create Account</h2>
+            <div data-role="fieldcontain">
+                <label for="inputPassword">Key</label>
+                <input type="hidden" name="new" value="1" />
+                <input type="password" id="key" name="key" placeholder="Key" required autofocus>
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
+    </div>
+</div>
+
